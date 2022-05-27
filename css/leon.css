@@ -406,7 +406,9 @@ body {
     .contact .info .label,
     .contact .info .link {
         width: 550px;
-        font-size: 25px;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 20px;
         word-break: break-all;
     }
 }
