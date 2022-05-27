@@ -402,9 +402,10 @@ body {
     margin-left: 10px;
     color: var(--sec-color);
 }
-@media (max-width: 77px) {
+@media (max-width: 990px) {
     .contact .info .label,
     .contact .info .link {
+        width: 900px;
         font-size: 25px;
         word-break: break-all;
     }
