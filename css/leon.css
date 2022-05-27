@@ -405,10 +405,12 @@ body {
 @media (max-width: 900px) {
     .contact .info .label,
     .contact .info .link {
-        width: 850px;
-        padding: 0;
         font-size: 20px;
         word-break: break-all;
+    }
+    .contact .info { 
+        width: 850px;
+        padding: 0;
     }
 }
 /* end contact */
